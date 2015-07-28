@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:50px;
+  padding:60px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
@@ -176,12 +176,6 @@ hr {
   margin:0 0 20px;
 }
 
-footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
-}
 
 @media print, screen and (max-width: 960px) {
   
@@ -190,7 +184,7 @@ footer {
     margin:0;
   }
   
-  header, section, footer {
+  header, section {
     float:none;
     position:static;
     width:auto;
@@ -252,4 +246,32 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
 }
