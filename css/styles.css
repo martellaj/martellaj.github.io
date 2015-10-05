@@ -1,3 +1,14 @@
+/*
+	Site colors 
+*/
+colors {
+	color: #D7BCE8; 
+	color: #8884FF;
+	color: #5D576B;
+	color: #D7E8BA;
+	color: #FEF9FF;
+}
+
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
@@ -20,8 +31,21 @@
   }
 }
 
+body {
+  background: url('../images/geometry2.png') top left repeat;
+}
+
 h1, h2, p, a {
   font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-weight: bold; 
+  color: #8884FF; 
+}
+
+a:hover {
+  color: #D7BCE8;
 }
 
 .navbar {
@@ -31,10 +55,16 @@ h1, h2, p, a {
 .jumbotron {
   padding-top: 20px;
   margin-bottom: 70px;
+  background-color: #5D576B;
+}
+
+.jumbotron h1 {
+  color: #FEF9FF;
 }
 
 .jumbotron h2 {
   font-weight: 300;
+  color: #D7E8BA;
 }
 
 .social-icons i {
@@ -42,7 +72,11 @@ h1, h2, p, a {
 }
 
 .social-icons a {
-  color: black;
+  color: #FEF9FF;
+}
+
+.social-icons a:hover {
+  color: #D7E8BA;
 }
 
 .facts-about-me h3 {
