@@ -35,7 +35,7 @@ body {
   background: url('../images/geometry2.png') top left repeat;
 }
 
-h1, h2, p, a {
+h1, h2, h3, p, a {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -87,16 +87,24 @@ a:hover {
   margin-top: 20px;
 }
 
-.project-details {
-  margin-bottom: 0px;
-}
-
 .featurette-divider {
-  margin: 60px 0;
+  margin: 30px 0;
 }
 
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+.projects {
+  margin-bottom: 50px;
+}
+
+.source-link {
+  margin-bottom: 10px;
+}
+
+.project-details {
+  margin-bottom: 20px;
 }
