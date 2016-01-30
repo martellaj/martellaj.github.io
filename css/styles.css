@@ -105,8 +105,9 @@ strong {
   margin-bottom: 50px;
 }
 
-.project {
-  margin-bottom: 50px;
+.project-divider {
+  margin: 25px 0 0 20px;
+  color: black;
 }
 
 .source-link {
