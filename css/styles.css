@@ -48,6 +48,10 @@ a:hover {
   color: #D7BCE8;
 }
 
+strong {
+  color: #8884FF;   
+}
+
 .navbar {
   margin: 0;
 }
