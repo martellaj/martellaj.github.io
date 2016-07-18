@@ -1,12 +1,12 @@
 /*
-	Site colors 
+	Site colors
 */
 colors {
-	color: #D7BCE8; 
-	color: #8884FF;
-	color: #5D576B;
-	color: #D7E8BA;
-	color: #FEF9FF;
+	color: #214E34;
+	color: #9DDBAD;
+	color: #214E34;
+	color: #8896AB;
+	color: #9DDBAD;
 }
 
 @media (min-width: 768px) {
@@ -19,7 +19,7 @@ colors {
     .navbar .navbar-collapse {
         text-align: center;
     }
-    
+
     .featurette-heading {
       font-size: 50px;
     }
@@ -40,16 +40,16 @@ h1, h2, h3, p, a {
 }
 
 a {
-  font-weight: bold; 
-  color: #8884FF; 
+  font-weight: bold;
+  color: #9DDBAD;
 }
 
 a:hover {
-  color: #D7BCE8;
+  color: #214E34;
 }
 
 strong {
-  color: #8884FF;   
+  color: #9DDBAD;
 }
 
 .navbar {
@@ -59,16 +59,16 @@ strong {
 .jumbotron {
   padding-top: 20px;
   margin-bottom: 70px;
-  background-color: #5D576B;
+  background-color: #214E34;
 }
 
 .jumbotron h1 {
-  color: #FEF9FF;
+  color: #9DDBAD;
 }
 
 .jumbotron h2 {
   font-weight: 300;
-  color: #D7E8BA;
+  color: #8896AB;
 }
 
 .social-icons i {
@@ -76,11 +76,11 @@ strong {
 }
 
 .social-icons a {
-  color: #FEF9FF;
+  color: #9DDBAD;
 }
 
 .social-icons a:hover {
-  color: #D7E8BA;
+  color: #8896AB;
 }
 
 .facts-about-me h3 {
