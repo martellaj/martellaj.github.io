@@ -23,7 +23,7 @@
   <div class="jumbotron">
     <div class="container text-center">
       <h1>Joe Martella</h1>
-      <h2>Developer. Runner. Wiener lover.</h2>
+      <h2>Developer. Writer. Wiener lover.</h2>
       <div class="social-icons">
         <a href="http://www.twitter.com/martellaj" target="_blank"><i class="fa fa-twitter fa-2x" style="padding-left: 0px;"></i></a>
         <a href="http://www.github.com/martellaj" target="_blank"><i class="fa fa-github fa-2x"></i></a>
@@ -44,24 +44,26 @@
         <ul class="fa-ul">
           <li>
             <i class="fa-li"></i>
-            <h3>I call <strong>Redmond, WA</strong> home these days.</h3>
+            <h3>I grew up in NJ, but live in
+                <em>Redmond, Washington</em>.</h3>
           </li>
           <li>
             <i class="fa-li"></i>
-            <h3>I'm a developer at Microsoft working on <strong>OneDrive</strong>.</h3>
+            <h3>I'm a software engineer who works on
+                <a href="https://onedrive.com" target="_blank"> OneDrive</a>.</h3>
           </li>
           <li>
             <i class="fa-li"></i>
-            <h3>I like <strong>JavaScript</strong> and experimenting with all its forms.</h3>
+            <h3>I like JavaScript, particularly Angular and Node.</h3>
           </li>
           <li>
             <i class="fa-li"></i>
-            <h3>I graduated from <strong>Purdue University</strong> (Computer Science 2013).</h3>
+            <h3>I graduated from Purdue University (Computer Science 2013).</h3>
           </li>
           <li>
             <i class="fa-li"></i>
-            <h3>I'm in love with a beautiful woman and
-                <strong><a href="http://joeandshan.com/" target="_blank">we're getting married</a></strong>.</h3>
+            <h3>I'm in love with my beautiful
+                <strong><a href="http://instagram.com/shannonmartella" target="_blank">wife</a></strong>.</h3>
           </li>
           <li>
             <i class="fa-li"></i>
@@ -77,6 +79,21 @@
     <div class="row projects">
       <div class="col-sm-4 text-center">
         <div class="project">
+          <h2>bustxt</h2>
+          <div class="source-link">
+            <a href="https://github.com/martellaj/bustxt" target="_blank">Source</a>
+          </div>
+          <div class="project-details text-left">
+            <p><strong>What is it?</strong> Simple service to notify my wife via SMS if her bus is late or not.</p>
+            <p><strong>How'd I do it?</strong> It's written in TypeScript, using Node.js.</p>
+            <p><strong>Why'd I do it?</strong> My wife is busy in the morning. This service serves as a <em>reactive</em> way for her to get bus schedule info instead of the traditional <em>proactive</em> way of opening an app.</p>
+          </div>
+          <img src="./images/bustxt-screenshot.jpg" class="img-thumbnail"></img>
+        </div>
+
+        <hr class="project-divider" />
+
+        <div class="project">
           <h2>commemoji</h2>
           <div class="source-link">
             <a href="https://github.com/martellaj/commemoji" target="_blank">Source</a> | <a href="https://www.npmjs.com/package/commemoji"
@@ -89,7 +106,58 @@
           </div>
           <img src="./images/commemoji-screenshot.png" class="img-thumbnail"></img>
         </div>
-        
+      </div>
+
+      <div class="col-sm-4 text-center">
+        <div class="project">
+          <h2>Managerisms</h2>
+          <div class="source-link">
+            <a href="https://github.com/martellaj/managerisms" target="_blank">Source</a> | <a href="http://managerisms.azurewebsites.net/"
+            target="_blank">App</a>
+          </div>
+          <div class="project-details text-left">
+            <p><strong>What is it?</strong> It's a web app that shows you random <em>managerisms</em> and let's you tweet them.
+              Inspired by a former lead of mine.</p>
+            <p><strong>How'd I do it?</strong> This is a MEAN app. The front-end is written in Angular and the back-end is written
+              in Node.js (using Express) that talks to a MongoDB database.</p>
+            <p><strong>Why'd I do it?</strong> I wanted to share my lead's awesome sayings with the world.</p>
+          </div>
+          <img src="./images/managerism-screenshot.png" class="img-thumbnail"></img>
+        </div>
+
+        <hr class="project-divider" />
+
+        <div class="project">
+          <h2>Art Curator</h2>
+          <div class="source-link">
+            <a href="https://github.com/OfficeDev?utf8=%E2%9C%93&query=artcurator" target="_blank">Source</a> | <a href="https://www.youtube.com/watch?v=4LOvkweDfhY&feature=youtu.be"
+            target="_blank">Marketing video</a>
+          </div>
+          <div class="project-details text-left">
+            <p><strong>What is it?</strong> It is a project that I led to show an interesting scenario using the Office 365 APIs. At its core, Art Curator is an attachment-first view of your mailbox.</p>
+            <p><strong>How'd I do it?</strong> I designed the concept and led the v-team that built out these samples. It was written for the web (using Angular) and Windows Phone by me, and written for Android and iOS by two of my teammates.</p>
+            <p><strong>Why'd I do it?</strong> It was my team's first "showcase" sample, where we showed not only the "how", but also the "why".</p>
+          </div>
+          <img src="./images/artcurator-screenshot.png" class="img-thumbnail"></img>
+        </div>
+      </div>
+
+      <div class="col-sm-4 text-center">
+        <div class="project">
+          <h2>License Injector</h2>
+          <div class="source-link">
+            <a href="https://github.com/martellaj/license-injector" target="_blank">Source</a> | <a href="https://marketplace.visualstudio.com/items/martellaj.license-injector"
+            target="_blank">Marketplace page</a>
+          </div>
+          <div class="project-details text-left">
+            <p><strong>What is it?</strong> A VS Code extension that injects license notices into source code files.</p>
+            <p><strong>How'd I do it?</strong> It's written in JavaScript, using Node.js.</p>
+            <p><strong>Why'd I do it?</strong> I built this out of necessity. I did not like copying, pasting, and formatting
+              the same text 15 times per project I developed.</p>
+          </div>
+          <img src="./images/license-injector-screenshot.png" class="img-thumbnail"></img>
+        </div>
+
         <hr class="project-divider" />
 
         <div class="project">
@@ -112,55 +180,6 @@
           </div>
           <img src="./images/racereportr-screenshot.png" class="img-thumbnail"></img>
         </div>
-      </div>
-
-      <div class="col-sm-4 text-center">
-        <div class="project">
-          <h2>Managerisms</h2>
-          <div class="source-link">
-            <a href="https://github.com/martellaj/managerisms" target="_blank">Source</a> | <a href="http://managerisms.azurewebsites.net/"
-            target="_blank">App</a>
-          </div>
-          <div class="project-details text-left">
-            <p><strong>What is it?</strong> It's a web app that shows you random <em>managerisms</em> and let's you tweet them.
-              Inspired by a former lead of mine.</p>
-            <p><strong>How'd I do it?</strong> This is a MEAN app. The front-end is written in Angular and the back-end is written
-              in Node.js (using Express) that talks to a MongoDB database.</p>
-            <p><strong>Why'd I do it?</strong> I wanted to share my lead's awesome sayings with the world.</p>
-          </div>
-          <img src="./images/managerism-screenshot.png" class="img-thumbnail"></img>
-        </div>
-        
-        <hr class="project-divider" />
-        
-        <div class="project">
-          <h2>Art Curator</h2>
-          <div class="source-link">
-            <a href="https://github.com/OfficeDev?utf8=%E2%9C%93&query=artcurator" target="_blank">Source</a> | <a href="https://www.youtube.com/watch?v=4LOvkweDfhY&feature=youtu.be"
-            target="_blank">Marketing video</a>
-          </div>
-          <div class="project-details text-left">
-            <p><strong>What is it?</strong> It is a project that I led to show an interesting scenario using the Office 365 APIs. At its core, Art Curator is an attachment-first view of your mailbox.</p>
-            <p><strong>How'd I do it?</strong> I designed the concept and led the v-team that built out these samples. It was written for the web (using Angular) and Windows Phone by me, and written for Android and iOS by two of my teammates.</p>
-            <p><strong>Why'd I do it?</strong> It was my team's first "showcase" sample, where we showed not only the "how", but also the "why".</p>
-          </div>
-          <img src="./images/artcurator-screenshot.png" class="img-thumbnail"></img>
-        </div>
-      </div>
-
-      <div class="project col-sm-4 text-center">
-        <h2>License Injector</h2>
-        <div class="source-link">
-          <a href="https://github.com/martellaj/license-injector" target="_blank">Source</a> | <a href="https://marketplace.visualstudio.com/items/martellaj.license-injector"
-          target="_blank">Marketplace page</a>
-        </div>
-        <div class="project-details text-left">
-          <p><strong>What is it?</strong> A VS Code extension that injects license notices into source code files.</p>
-          <p><strong>How'd I do it?</strong> It's written in JavaScript, using Node.js.</p>
-          <p><strong>Why'd I do it?</strong> I built this out of necessity. I did not like copying, pasting, and formatting
-            the same text 15 times per project I developed.</p>
-        </div>
-        <img src="./images/license-injector-screenshot.png" class="img-thumbnail"></img>
       </div>
     </div>
   </div>
